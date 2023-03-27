@@ -1,0 +1,57 @@
+.menu-block .dropdown-menu {
+	display: none !important;
+}
+
+.menu-block .nav li.dropdown:hover > .dropdown-menu {
+	display: block !important;
+}
+
+
+.menu-block .dropdown-menu.menu-inner ul li:focus,
+.menu-block .dropdown-menu.menu-inner ul li:hover,
+.menu-block .dropdown-menu > li  > a:hover,
+.menu-block .dropdown-menu  > .active > a,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-nav .active  > a,
+.social-icon ul li a .fa:active,
+.social-icon ul li a .fa:focus,
+.social-icon ul li a .fa:hover,
+.split-dropdowm .btn-group:first-of-type .dropdown-menu li a:hover,
+.simple-dropdown  .dropdown-menu li a:hover,
+.social-icon-1 .social-icon li a .fa-dribbble,
+.button-different button.btn-one,
+.price-box .pricing-table-inner h3,
+.main-tab .nav-tabs > li.active > a, 
+.main-tab .nav-tabs > li.active > a:focus,
+.main-tab .nav-tabs > li.active > a:hover,
+.login-btn.btn-default:hover,
+.login-btn.btn-default:active, 
+.login-btn.btn-default:focus,
+.skill-section .progress-bar-warning,
+.team-box ul li a,
+.team-box-inner h3,
+.page-title,
+.blog-sidebar-box,
+.blog-pagination ul li.active a:focus,
+.blog-pagination ul li.active:hover a,
+.blog-pagination ul li.active a,
+.red-btn,
+.read-button,
+.tab-inner .read-button,
+.project-status .read-button,
+.login-btn,
+.tab-inner .dropdown-menu > li > a:focus, 
+.tab-inner .dropdown-menu > li > a:hover,
+.tab-inner .btn-group:hover,
+.work-section-inner .nav-tabs .active a:focus,
+.work-section-inner .nav-tabs .active a:hover,
+.blog-tab .nav-tabs .active a:focus,
+.blog-tab .nav-tabs .active a:hover,
+.work-section-inner .nav-tabs .active a,
+.blog-tab .nav-tabs .active a,
+.portfolio-categories  li  a.active,
+.widget-sidebar-menu li.dropdown.open {
+	background-color: #e85e19;
+}

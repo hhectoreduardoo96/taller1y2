@@ -1,0 +1,284 @@
+.header-top .col-md-6,
+.logo-block,
+.social-icon,
+.grid-box-inner .col-md-2,
+.work-section-inner .nav-tabs > li,
+.work-section-inner .tab-inner .tab-pane-inner .col-md-8,
+.work-block,
+.article-section .col-md-3,
+.news-subscribe label,
+.footer-menu-block,
+.footer-menu-block .navbar ul,
+.work-detalis .col-md-8,
+.we-are-box .col-md-4,
+.blog-section .col-md-8,
+.blog-tab-inner .col-md-1,
+.blog-tab-inner,
+.blog-tab .nav-tabs > li,
+.testimonial-img,
+.page-breadcrumb .breadcrumb > li + li::before,
+.widgetkit-section .sidebar,
+.rtl-language .col-md-9,
+.group-button > .btn-group .btn,
+.faq-inner .panel-group .panel-heading h4 > a::before,
+.shortcode-block-inner p span, 
+.why-choose-us-inner span,
+.block-dates-inner p:first-of-type,
+.icon-inner p .fa,
+.progress-bar,
+.our-service .col-md-8,
+.contact-add-form,
+.latest-category.blog-item  .col-md-8,
+.single-post.latest-category .col-md-8,
+.category-blog .col-md-8,
+.col-md-8.col-sm-12 span,
+.form-horizontal .col-md-6,
+.login-form .col-md-6,
+.registration-form .col-md-7,
+.single-post .col-md-8 {
+	float: right;
+}
+
+.menu-block li.dropdown li.dropdown > a:before,
+.clients-portfolio .owl-controls .owl-nav .owl-next,
+.clients-portfolio .owl-controls .owl-nav .owl-prev,
+.footer-widget-area .widget-categories ul li::after,
+.vertical-accordion .panel-heading a::after, 
+.sidebar-droupdown .btn::before, 
+.vertical-menu .btn::before, 
+.sidbar-accordion .panel-heading a::after,
+.price-head > .feature > li::after,
+.widget-sidebar-menu > ul > li > a::after,
+button.close {
+	float: left;
+}
+
+.login-btn,
+.post-date-right,
+.testimonial-img {
+	float: left !important;
+}
+
+.login-form .login-btn {
+	float: right !important;
+}
+
+ul,
+.header-top .col-md-6 ul,
+.menu-block .nav,
+.menu-block .dropdown-menu.menu-inner ul,
+.grid-box-inner .col-md-2,
+.work-section-inner .nav-tabs,
+.footer-menu-block .navbar ul,
+.offcanvas-menu ul,
+.blog-tab .nav-tabs,
+.vertical-accordion .panel-collapse .panel-body ul,
+.sidbar-accordion .panel-collapse .panel-body ul,
+.icon-list ul,
+.price-head .feature {
+	padding-right: 0;
+}
+
+.goal-list li {
+	padding-left: 0;
+}
+
+.grid-box-inner .col-md-2 { 
+	padding-left: 15px;
+}
+
+.vertical-accordion .panel-collapse .panel-body ul .level-inner, 
+.sidbar-accordion .panel-collapse .panel-body ul .level-inner {
+	padding-right: 10px;
+}
+
+.vertical-accordion .panel-collapse .panel-body ul .level-inner ul, 
+.sidbar-accordion .panel-collapse .panel-body ul .level-inner ul {
+	padding-right: 20px;
+}
+
+.offcanvas-menu > ul > li > a,
+.portfolio-box ul,
+.portfolio-categories {
+	padding-right: 15px;
+}
+
+.offcanvas-menu .sub-menu .child-menu li a,
+.goal-list li {
+	padding-right: 30px;
+}
+
+.offcanvas-menu .sub-menu .child-menu li .child-menu li a,
+.login-form ul,
+.login-form h2,
+.registration-form h2,
+.form-horizontal .checkbox, 
+.form-horizontal .radio {
+	padding-right: 40px;
+}
+
+.price-head .feature li {
+	padding-right: 10%;
+}
+
+.price-head .feature li {
+	padding-left: 25px;
+}
+
+.contact-info p,
+.social-icon ul,
+.menu-block,
+.news-subscribe .form-group,
+.copy-right-section p {
+	text-align: left;
+}
+
+th,
+.tab-inner .dropdown-menu,
+.footer-menu-block .navbar,
+.price-head .feature li,
+.widget-sidebar-menu li .dropdown-menu > li > a,
+.login-form .form-horizontal .control-label, .registration-form .form-horizontal .control-label {
+	text-align: right;
+}
+
+.logo-block p {
+	border-left: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    margin-left: 0px;
+	margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.clients-portfolio .owl-nav {
+	left: 0;
+	right: auto;
+}
+
+.menu-block .nav,
+.menu-block .nav > li {
+	float: right;
+}
+
+.menu-block .dropdown-menu,
+.goal-list li::before {
+	right: 0;
+}
+
+.menu-block .dropdown-menu {
+	left: auto;
+	text-align: right;
+}
+
+.menu-block .navbar-nav li .dropdown-menu li:hover .dropdown-menu.mega-menu,
+.menu-block .navbar-nav li .dropdown-menu li:hover .dropdown-menu.menu-right {
+	right: 100%;
+	left: auto;
+}
+
+.menu-block li.dropdown li.dropdown > a:before,
+.footer-widget-area .widget-categories ul li::after,
+.vertical-accordion .panel-heading a::after, 
+.sidebar-droupdown .btn::before, 
+.vertical-menu .btn::before, 
+.sidbar-accordion .panel-heading a::after,
+.page-breadcrumb .breadcrumb > li + li::before,
+.widget-sidebar-menu > ul > li > a::after {
+	content: "\f104";
+	font-family: "fontAwesome";
+}
+
+.home-slider .flex-direction-nav .flex-prev, .home-slider.flexslider:hover .flex-direction-nav .flex-prev {
+	left: 34px;
+}
+
+.home-slider .flex-direction-nav .flex-next, 
+.home-slider.flexslider:hover .flex-direction-nav .flex-next {
+	right: 27.5%;
+}
+
+.home-slider .flex-control-nav {
+	left: 20px;
+	right: auto;
+}
+
+.work-section-inner .nav-tabs > li > a,
+.blog-icon,
+.blog-tab .nav-tabs > li > a,
+.module-inner-content h2 .fa,
+.icon-list li .fa,
+.icon-list-inner li i,
+.unlimitedcolors p, 
+.contact-add-form .login-btn,
+.short-tabel-total table thead tr th .fa,
+.shortcode-block-inner p span, 
+.why-choose-us-inner span,
+.panel-style .panel-info .panel-heading .fa, 
+.panel-style .panel-default .panel-heading .fa,
+.goal-list li::before {
+	margin-right: 0;
+}
+
+.news-subscribe input[type="submit"] {
+	margin-right: 30px;
+}
+
+.list-shortcodes .simple-heading .item-list  {
+	margin-right: 40px;
+}
+
+.blog-icon,
+.module-inner-content h2 .fa,
+.module-inner-content .badge-inner,
+.faq-inner .panel-group .panel-heading h4 > a::before {
+	margin-left: 20px; 
+}
+
+.news-subscribe input[type="submit"],
+.block-dates-inner p:first-of-type {
+	margin-left: 0;
+}
+
+.icon-list li .fa,
+.icon-list-inner li i,
+.shortcode-block-inner p span, 
+.why-choose-us-inner span,
+.block-dates-inner p:first-of-type,
+.goal-list li::before {
+	margin-left: 10px;
+}
+
+.unlimitedcolors p, .contact-add-form .login-btn {
+	margin-left: 45px;
+}
+
+.short-tabel-total table thead tr th .fa,
+.panel-style .panel-info .panel-heading .fa, 
+.panel-style .panel-default .panel-heading .fa {
+	margin-left: 5px;
+}
+
+.tab-img {
+	text-align: center;
+}
+
+.tab-inner .btn-group {
+	margin-right: 15px;
+}
+
+.drop-cap::first-letter {
+	float: none;
+}
+
+.single-post-inner .single-post-content .entry-post-date,
+.single-post-inner .single-post-content .entry-post-month {
+	width: 100%;
+}
+
+.login-form ul { 
+	margin-bottom: 50px;
+}

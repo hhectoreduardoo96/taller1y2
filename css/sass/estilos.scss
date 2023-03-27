@@ -1,0 +1,62 @@
+//Importa las variables del archivo variables/_vars.scss
+@import '../variables/vars';
+
+//Importa los mixins del archivo mixins/_mixin.scss
+@import '../mixins/mixin';
+
+//Importa las funciones del archivo funciones/_functions.scss
+@import '../funciones/functions';
+
+//Importa los estilos del archivo general/_paginaweb.scss
+@import '../general/paginaweb';
+
+main{
+    
+    section{
+        h2{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 5px;
+
+            li{
+                width: 30%;
+                margin-bottom: 2rem;
+                padding: 15px;
+                background-color: $color-primario;
+                border-radius: 0.5rem;
+                color: $color-blanco;
+
+                h3{
+                    font-size: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+
+                p{
+                    font-size: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+                button{
+                    background-color: $color-blanco;
+                    color: $color-primario;
+                    border: none;
+                    padding: 0.5rem 1rem;
+                    border-radius: 0.5rem;
+
+                    &:hover{
+                        background-color: $color-secundario;
+                        color: $color-blanco;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,491 @@
+body {
+	background: url("../../images/custom.jpg") repeat scroll 0 0 #3F3B49;
+    background-size: cover;
+}
+
+body,
+.menu-block .navbar-default .navbar-nav > li > a,
+.menu-block .dropdown-menu > li > a,
+.menu-block .dropdown-menu.menu-inner ul li a,
+.social-icon ul li a .fa,
+.search-box .form-control,
+.news-subscribe label,
+.about-block blockquote, 
+.block-quotes blockquote p, 
+.block-inner blockquote p,
+.work-section-inner .nav > li > a:focus, 
+.work-section-inner .nav > li > a:hover,
+.tab-inner .dropdown-menu > li > a,
+.footer-widget-area .widget-categories ul li a,
+.sidbar-accordion.panel-group .panel-body a, 
+.vertical-accordion.panel-group .panel-body a,
+.widgetkit-content ul li,
+.blog-pagination ul li a,
+.block-icon-service .services-box p,
+.about-block footer,
+.main-tab .nav-tabs li a:hover, 
+.main-tab .nav-tabs li a:focus,
+.portfolio-categories li a,
+.search-box .input-group-btn .btn {
+	color: #D6D6D6;
+}
+
+.header-logo .logo-block a img:first-child,
+.service-img > img:first-child{
+	display: none;
+}
+
+.header-logo .logo-block a img:last-child,
+.service-img > img:last-child{
+	display: inline-block;
+}
+
+.search-box .input-group-btn .btn {
+	opacity: 0.4;
+}
+
+.vertical-accordion.panel-group .panel-heading .panel-title a, 
+.sidbar-accordion.panel-group .panel-heading .panel-title a,
+.widget-sidebar-menu > ul > li a,
+.widget-sidebar-menu li .dropdown-menu > li > a {
+	color: #fff;
+}
+
+.container,
+.menu-block .dropdown-menu,
+.tab-inner .btn-group .dropup-down:hover .dropdown-menu,
+.price-box .transform-scale,
+.link-model .modal-content,
+.model-login .modal-sm .modal-content,
+.mejs-container .mejs-controls {
+    background-color: #61616E;
+}
+
+.menu-block .navbar-collapse {
+	background-color: #61616E;
+	border-color: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-width: 1px 0 0;
+    box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.035) inset, 0 1px 0 rgba(255, 255, 255, 0.075) inset, 0 10px 50px rgba(255, 255, 255, 0.1) inset;
+}
+
+.menu-block .nav > li.dropdown:hover > .dropdown-menu.menu-inner li a {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.055);
+}
+.dropdown-menu .divider {
+	background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.055);
+}
+ 
+.slider-content a,
+.tag-list li a,
+.news-subscribe  input[type="submit"],
+.menu-block .dropdown-menu.menu-inner ul li:focus,
+.menu-block .dropdown-menu.menu-inner ul li:hover,
+.menu-block .dropdown-menu li a:hover,
+.menu-block .dropdown-menu  > .active > a,
+.menu-block  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover,
+.menu-block .navbar-nav .active  >  a,
+.menu-block .navbar-default .navbar-nav > .active > a, 
+.menu-block .navbar-default .navbar-nav > .active > a:focus, 
+.menu-block .navbar-default .navbar-nav > .active > a:hover,
+.social-icon ul li a .fa:active,
+.social-icon ul li a .fa:focus,
+.social-icon ul li a .fa:hover,
+.split-dropdowm .btn-group:first-of-type .dropdown-menu li a:hover,
+.simple-dropdown  .dropdown-menu li a:hover,
+.social-icon-1 .social-icon li a .fa-dribbble,
+.button-different button.btn-one,
+.price-box .pricing-table-inner h3,
+.main-tab .nav-tabs > li.active > a, 
+.main-tab .nav-tabs > li.active > a:focus,
+.main-tab .nav-tabs > li.active > a:hover,
+.login-btn.btn-default:hover,
+.login-btn.btn-default:active, 
+.login-btn.btn-default:focus,
+.skill-section .progress-bar-warning,
+.team-box ul li a,
+.team-box-inner h3,
+.page-title,
+.blog-sidebar-box,
+.blog-pagination ul li.active a:focus,
+.blog-pagination ul li.active:hover a,
+.blog-pagination ul li.active a,
+.red-btn,
+.read-button,
+.tab-inner .read-button,
+.project-status .read-button,
+.login-btn,
+.tab-inner .dropdown-menu > li > a:focus, 
+.tab-inner .dropdown-menu > li > a:hover,
+.tab-inner .btn-group:hover,
+.work-section-inner .nav-tabs .active a:focus,
+.work-section-inner .nav-tabs .active a:hover,
+.blog-tab .nav-tabs .active a:focus,
+.blog-tab .nav-tabs .active a:hover,
+.work-section-inner .nav-tabs .active a,
+.blog-tab .nav-tabs .active a,
+.portfolio-categories  li  a.active,
+.tab-inner .btn-danger,
+.tab-inner .btn-danger,
+.block-dates-inner .post-month, 
+.entry-post-month,
+.group-button > .btn-group .btn,
+.button-size button,
+.box-background, 
+.link-model .btn-warning,
+.widget-sidebar-menu ul li a:hover,
+.widget-sidebar-menu li.dropdown.open,
+.menu-block  .navbar-default .navbar-nav > li > a:focus, 
+.menu-block  .navbar-default .navbar-nav > li > a:hover,
+.menu-block .nav .open > a:focus,
+.menu-block .dropdown-menu.mega-menu ul li:hover,
+.menu-block .navbar-default .navbar-nav > .active > a, 
+.menu-block .navbar-default .navbar-nav > .active > a:focus, 
+.menu-block .navbar-default .navbar-nav > .active > a:hover,
+.sidebar-droupdown .btn-default:hover,
+.sidbar-accordion.panel-group .panel-heading .panel-title:hover,
+.sidbar-accordion.panel-group .panel-heading .panel-title:focus,
+.sidbar-accordion.panel-group .panel-body a:hover,
+.sidbar-accordion.panel-group .panel-body a:focus,
+.sidebar-droupdown  .dropdown-menu .level-inner li a:hover,
+.sidebar-droupdown  .dropdown-menu > li > a:hover,
+.portfolio-box ul li,
+.clients-portfolio .owl-controls .owl-nav [class*="owl-"],
+.tab-inner .btn,
+.work-box .col-md-4:first-child .work-detalis-inner,
+.progress .progress-bar, 
+.size-progressbar .progress .progress-bar,
+.simple-dropdown .dropdown .btn-warning,
+.simple-dropdown.dropdown:hover .dropdown-menu, 
+.color-dropdown .dropdown:hover .dropdown-menu, 
+.split-dropdowm .btn-group:hover .dropdown-menu{
+	background-color: #56BCE8;
+}
+
+.portfolio-box  ul li {
+	color: #fff;
+}
+
+.reg-btn,
+.reg-btn:hover {
+	background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.15) inset, 0 -5px 10px rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item:hover .client-box-content,
+.image-box.fade-bottom p, 
+.image-box.fade-top p,
+.image-box.fade-bottom a:hover:before, 
+.image-box.fade-top a:hover:before, 
+.image-box.hover-img a:hover:before, 
+.gallery-images-box:hover a:before, 
+.work-detalis-inner .hover-img:hover:before, 
+.portfolio-box .hover-img:hover:before, 
+.entry-cover.hover-img a:hover:before,
+.business-service:before  {
+	background-color: #56BCE8;
+	opacity: 0.75;
+}
+
+.clients-portfolio .owl-theme .owl-dots .owl-dot.active span:before,
+.tab-inner .tab-pane p a, 
+.contact-table .table .item-title a, 
+.entry-post p a, 
+.icon-title p a,
+.author-content h2,
+.author-content p a,
+.rss-feed a,
+.entry-post p a,
+.tooltip-icon li a,
+.back-to-top .fa,
+.footer-block .nav > li > a,
+.copy-right-section p a,
+.login-info li a,
+.contact-info span,
+.widget-vision .vision-content a, 
+.block-quotes blockquote p span,
+.block-inner p span,
+.work-section-inner .nav-tabs a, 
+.blog-tab  .nav-tabs a,
+.box-icon,
+.grid-box-inner h2,
+.clients-portfolio h2 ,
+.video-block h2,
+.entry-title a,
+.system-box h2,
+.portfolio-box h2 a,
+.service-inner h2,
+.service-box h2,
+.service-sidebar h2,
+.main-tab .tab-content h2,
+.faq-inner h2,
+.faq-inner .panel-title a,
+.faq-sidebar h2,
+.faq-sidebar-inner h3 ,
+.read-text,
+.blockquote-column h3,
+.testimonial-carouse h2,
+.sidebar-blockquote h4,
+.contact-category h2,
+.work-block-inner h2,
+.widget-recent-client h2,
+.sidebar .widget-title,
+.category-blog h2,
+.column-layout h2,
+.portfolio-block h2,
+.portfolio-side-block h3,
+.audio-portfolio-inner h3,
+.rtl-inner h2,
+.widgetkit-inner h2,
+.widgetkit-content h3,
+.module-inner-content h2,
+.module-layouts-large h2,
+.pricing-tables h2,
+.blog-post-link h2,
+.contact-item h1,
+.contact-item h2,
+.contact-item-detalis h3,
+.shortcode-section h1,
+.shortcode-section h2,
+.icon-inner h4,
+.media-comment h3,
+.leave-comment h3,
+.shortcode-heading h1,
+.shortcode-multiple-heading h1,
+.shortcode-multiple-heading h2,
+.shortcode-multiple-heading h3,
+.shortcode-multiple-heading h4,
+.shortcode-multiple-heading h5,
+.shortcode-multiple-heading h6,
+.heading-description h2,
+.column-blocks h1,
+.column-blocks h3,
+.shortcode-blockquote-inner h1,
+.shortcode-blockquote-inner h3,
+.login-form ul li a,
+.forum-content .forum-login li a,
+.contact-detail-inner ul li a,
+.contact-form h2,
+.login-form h2,
+.registration-form h2,
+.portfolio-side-block h3,
+.partners-section h2,
+.project-status h3 ,
+.why-choose-us-inner p a,
+.why-choose-us-inner h2,
+.skill-section h4,
+.pricing-tables h2,
+.about-content a,
+.about-section h2,
+.section-title,
+.contact-detail-inner h2,
+.portfolio-block-inner h3,
+.module-inner-content h2,
+.page-breadcrumb .breadcrumb  > .active a,
+.read-link,
+.icon-border-red,
+.blog-sidebar-box,
+.we-are-box a,
+.box-no-bg  h2,
+.article-content h3,
+.article-sidebar h2,
+.shortcode-section h2,
+.tab-inner h2,
+.blog-tab-inner h2,
+.button-variations .btn-link ,
+.block-client h6,
+.portfolio-box li,
+.unlimitedcolors h1,
+.icon-inner p .fa,
+.faq-inner .panel-heading a::before,
+.faq-inner .panel-heading a.collapsed:before,
+.admin-panel-inner p a, 
+.widgetkit-inner .link-example li a, 
+.module-layouts-large ul > li a,
+.link-model ul li a,
+.blog-item h1,
+.mega-menu h4,
+.mega-menu p a,
+.tooltip-icon li a:hover,
+.table-shortcode p a:hover,
+.image-shortcode p a:hover,
+.price-head .feature li a:hover,
+.blog-post-link ul li a:hover
+.blog-item p a:hover,
+.admin-panel-inner p a:hover,
+.widgetkit-inner .link-example li a:hover,
+.module-layouts-large ul > li a:hover,
+.author-content h2  a:hover,
+.author-content p a:hover,
+.tab-inner .tab-pane p a:hover,
+.contact-table .table .item-title a:hover,
+.entry-post p a:hover,
+.icon-title p a:hover, 
+.widget-post li a:hover,
+.comment-content ul li a:hover,
+.media-comment-inner .media-body ul li a:hover,  
+.service-content .service-link:hover,
+.login-form ul li a:hover,
+.forum-content .forum-login li a:hover,
+.contact-detail-inner ul li a:hover,
+.we-are-box a:hover,
+.login-info li  a:active,
+.login-info li  a:focus,
+.login-info li  a:hover,
+.portfolio-box h2 a:hover,
+.portfolio-box h2 a:focus,
+.read-link:hover,
+.page-breadcrumb .breadcrumb  > .active a:hover,
+.footer-block .nav > li > a:hover,
+.vertical-menu .dropdown-menu > li > a:hover,
+.vertical-accordion.panel-group .panel-body a:hover,
+.vertical-accordion .panel-title > a:hover,
+.vertical-menu .btn:hover,
+.comment-content > a,
+.author-content h2,
+.blog-post-link ul li a, 
+.blog-item p a,
+.media-comment-inner .media-body ul li a,
+.category-content p strong,
+.home-slider .flex-control-paging li a:before,
+.testimonial-client .carousel-indicators .active:before,
+.price-head h4,
+.price-head .feature li a,
+.unlimitedcolors h1,
+.unlimitedcolors p a,
+.button-different button.btn-four,
+.panel-default > .panel-heading h3,
+.main-tab .nav-tabs li a,
+.table-shortcode p a,
+.image-shortcode p a,
+.service-content .service-link,
+.blog-rss a,
+.entry-title,
+.widget-post li a {
+	color: #56BCE8;
+}
+
+.header-logo,
+.footer-block,
+.work-section-inner .nav-tabs, .blog-tab .nav-tabs,
+.tab-inner .btn-danger,
+.shortcode-block-inner p span, 
+.why-choose-us-inner span,
+.service-box span,
+.btn-warning,
+.btn-warning:hover,
+.media-comment h3,
+.leave-comment h3 {
+	border-color: #56BCE8;
+}
+
+.menu-block .nav > li.dropdown > .dropdown-menu,
+.menu-block .navbar-nav li .dropdown-menu.menu-right,
+.menu-block .dropdown-menu {
+	box-shadow: 0 2px 0 #56BCE8;
+}
+
+.social-icon ul li a .fa {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-box .form-control,
+.search-box .form-control:hover,
+.search-box .form-control:focus,
+.search-box:hover .btn-default,
+.search-box:hover .form-control,
+.search-box:focus .form-control,
+.news-subscribe .form-control,
+.sidbar-accordion.panel-group .panel-heading, 
+.sidbar-accordion.panel-group .panel-body,
+.sidbar-accordion.panel-group .panel-body a,
+.widget-sidebar-menu > ul > li .dropdown-menu,
+.table-striped > tbody > tr:nth-of-type(2n+1),
+.panel-default > .panel-heading,
+.panel-style .panel-default,
+.team-box {
+	background-color: transparent;
+}
+
+.news-subscribe,
+.sidbar-accordion .panel,
+.widget-sidebar-menu > ul > li  a {
+	background-color: #43444e;
+}
+
+.news-subscribe .form-control::-webkit-input-placeholder {
+   color: #fff;
+}
+
+.news-subscribe .form-control:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+}
+
+.news-subscribe .form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+}
+
+.news-subscribe .form-control:-ms-input-placeholder {  
+   color: #fff;
+}
+
+.work-section-inner .nav > li > a:focus, 
+.work-section-inner .nav > li > a:hover,
+.main-tab .nav-tabs li a:hover, 
+.main-tab .nav-tabs li a:focus {
+	border: none;
+	background-color: #71717D;
+}
+
+.page-title {
+    background-image: url("../../images/gradiant-2.png");
+}
+
+.column-blocks h3, .heading-description h2, .shortcode-blockquote-inner h3,
+.shortcode-heading > h1, .column-blocks h1, .shortcode-blockquote-inner h1,
+.panel-default > .panel-heading,
+.category-content {
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.faq-section .panel-default > .panel-heading,
+.latest-category article.single-post-content {
+	border-bottom: transparent;
+}
+
+.shortcode-block-inner p span,
+.service-box span {
+	border-left: transparent;
+	border-top: transparent;
+	border-right: transparent;
+}
+
+.shortcode-alerts .simple-alert {
+	color: #2d7091;
+}
+
+.entry-title{
+	box-shadow: none;
+}
+
+.media-comment-inner blockquote {
+    background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(173, 173, 173, 0.3);
+    border-style: solid;
+    border-width: 0 0 0 3px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05) inset, 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.contact-form p,
+.contact-form .form-horizontal .form-control, .login-form .form-horizontal .form-control, .registration-form .form-horizontal .form-control{
+	background: rgba(0, 0, 0, 0.03) none repeat scroll 0 0;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
+}
