@@ -5,9 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="taller1">
-    <meta name="author" content="hector montenegro">	
-	<title>Segunda Pagina</title>		
-		
+    <meta name="hector montenegro" content="hhectoreduardoo">	
+	<title>Segunda Pagina</title>				
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
 	<link href="css/fonts/pe-icon-7-stroke.css" rel="stylesheet"/>
 	<link href="css/style.css" rel="stylesheet"/>
@@ -16,27 +15,40 @@
 	<link rel="stylesheet" type="text/css" href="css/sass/estilos.css">
 </head>
 <body>	
-	
 	<div class="container">
 		<div class="row">
-			<!-- PageTitle Section -->
-			<div id="page-title" class="page-title">
-				<h2>Person's Rick & Morty </h2>
-			</div>
+			<a href="menu.html"><img src="images/logo.jpg" alt="Taller" width="300" height="82"></a>
+			<div id="page-title" class="page-title"><h2>Person's Rick & Morty </h2></div>
 			<div class="padding_zero container-fluid">
 				<div class="col-md-6 col-sm-6 footer-menu-block">
 					<nav class="navbar ">
 						<ul class="nav navbar-nav">
-								<hr></hr>
+								<hr></hr>								
 								<label>Busqueda de personaje de Rick y Morty:</label>
-								<input type="text" class="form-control" id="apibusqueda" placeholder="Clic aqui para buscar">
-								<button  class="login-btn" onclick="buscarrick()">Buscar</button>
-								<script src="js/api.js">;</script>								
-								<br>						
+							   <input type="text" class="form-control" id="results" onchange="buscarrick()" placeholder="Clic aqui para buscar">
+								<button  class="login-btn" id="results" onclick="buscarrick()">Buscar</button>
+								<script src="js/api.js"></script>	
+								<hr></hr>
+								<br>
+								<form id="formulario">
+									<div class="mb-3">
+									   <label for="exampleFormControlInput1" class="form-label">Personaje: </label>
+									   <input type="text" class="form-control" id="personaje">
+									</div>
+						        <div class="mb-3"><button type="submit">Buscar</button></div>
+								<script src="js/rick.ts"></script>
+						    </form>
+						
+					    <div id="resultado"></div>											
+								<br>
+								<hr>				
 								<div class="imagen-container">	
 									<img src="https://rickandmortyapi.com/api/character/avatar/816.jpeg" alt="Personaje">
 								</div>									
-						</ul></nav></div></div>							
+						</ul>
+					</nav>
+				</div>
+			</div>							
 								<hr>
 							<div class="padding_zero container-fluid">
 									<div class="col-md-6 col-sm-6 footer-menu-block">
