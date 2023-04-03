@@ -1,13 +1,14 @@
 function buscarrick() {
-	const rick = document.getElementById("apibusqueda").value;
-    
-	fetch(`https://rickandmortyapi.com/api/character/${rick}`)
+	const results = document.getElementById("results").value;
+	fetch(`https://rickandmortyapi.com/api/character/${results}`)
 	.then(response => response.json())
-	.then(data => console.log(data))
+	.then(data => console.log(data, results))
 	.catch(error => console.error(error));
   
 }
- 
+
+
+
 function traerrick(rick){
     const img = document.createElement('img');
     img.src = rick.stripes.front_default;
